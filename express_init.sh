@@ -1,4 +1,5 @@
 #!/bin/bash 
+
 #Check if option exists 
 if [ -z "$1" ];
     then
