@@ -1,14 +1,13 @@
 #!/bin/bash 
-
 #Check if option exists 
-if [ -z "$1"]
+if [ -z "$1" ];
     then
-        echo "Module name has to be provided"
+        echo "module name has to be provided"
         exit 1
 else
 if [ "$1" = "--database" -o "$1" = "-d" ];
 then
-    echo "Module name has to be provided"
+    echo "module name has to be provided before providing option"
     exit 1
 else
 
